@@ -127,14 +127,6 @@
 	</dependencies>
 
 	<build>
-		<!-- Not standard -->
-		<!-- finalName>${project.groupId}.${project.artifactId}_${project.version}</finalName -->
-
-		<!--<resources> -->
-		<!--<resource> -->
-		<!--<directory>src/main/native</directory> -->
-		<!--</resource> -->
-		<!--</resources> -->
 
 		<!--pluginManagement -->
 		<plugins>
@@ -178,8 +170,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.7</source>
+					<target>1.7</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
